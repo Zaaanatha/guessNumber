@@ -1,0 +1,120 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 325px;
+    min-height: 100vh;
+    top: 0;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button {
+    border: none;
+    background-color: rgb(151, 192, 192);
+    padding: 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+#btn1 {
+    border: none;
+    background-color: rgb(211, 145, 145);
+    padding: 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#btn1:hover {
+    background-color: rgb(159, 126, 121);
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+input {
+    border: none;
+    background-color: #eaeaea;
+    color: black;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ayam {
+    display: flex;
+    margin-left: 30px;
+    font-weight: 200;
+    top: 0;
+    left: 0;
+}
+
+#btn2 {
+    border: none;
+    background-color: rgb(57, 56, 56);
+    padding: 7px;
+    font-size: 15px;
+    margin-left: 28px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#btn2:hover {
+    background-color: #817676;
+}
+
+.kucing {
+    color: black;
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-weight: 200;
+    top: 0;
+    left: 0;
+}
